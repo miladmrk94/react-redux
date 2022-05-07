@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import iceReducer from "./ice/iceReducer";
-import shampooReducer from "./shampoo/shampooReducser";
+import shampooReducer from "./shampoo/shampooReducer";
 
 const rootReducer = combineReducers({
   shampoo: shampooReducer,

@@ -1,8 +1,8 @@
 import "./App.css";
 import { Provider } from "react-redux";
 import CakeContainer from "./Components/CakeContainer";
-import store from "./Redux/store";
 import IceContainer from "./Components/IceContainer";
+import store from "./Redux/store";
 
 function App() {
   return (

@@ -1,8 +1,9 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { buyIce } from "../Redux/ice/iceAction";
+
 const IceContainer = () => {
-  const ice = useSelector((state) => state.ice.ice);
+  const ice = useSelector((state) => state.ice.numOfIce);
   const dispatch = useDispatch();
   return (
     <div>
