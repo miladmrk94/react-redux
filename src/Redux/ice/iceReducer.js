@@ -1,7 +1,7 @@
 import { BUY_ICE } from "./iceTypes";
 
 const initialState = {
-  numOfIce: 120,
+  numOfIce: 30,
 };
 
 const iceReducer = (state = initialState, action) => {
