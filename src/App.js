@@ -5,6 +5,7 @@ import IceContainer from "./Components/IceContainer";
 import store from "./Redux/store";
 import Cake from "./Components/Cake";
 import HttpReqWithRedux from "./Components/HttpReqWithRedux";
+import AdminReq from "./Components/AdminReq";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Cake /> */}
         <hr />
         <HttpReqWithRedux />
+        <hr />
+        <AdminReq />
       </div>
     </Provider>
   );
